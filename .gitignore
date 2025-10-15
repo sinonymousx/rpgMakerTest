@@ -1,0 +1,57 @@
+# RPG Maker MV .gitignore
+
+# Save files
+/save/
+
+# Node modules (if using plugins with npm)
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build/Deploy directories
+/www/
+/dist/
+/build/
+
+# Test output
+/test/screenshots/
+/test/logs/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~$*
+
+# RPG Maker specific
+# Exclude compiled/encrypted files if deploying
+*.rpgmvp
+*.rpgmvm
+*.rpgmvo
+*.png_
+
+# Encryption key (keep this secret!)
+System.json.bak
