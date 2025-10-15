@@ -1,0 +1,5 @@
+www/
+save/
+node_modules/
+*.rpgsave
+*.rpgproject.lock
